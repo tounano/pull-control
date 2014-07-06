@@ -1,0 +1,32 @@
+{
+  "name": "pull-control",
+  "version": "0.0.1",
+  "main": "./control.js",
+  "description": "Control flow for pull streams.",
+  "homepage": "https://github.com/tounano/pull-control/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "streams",
+    "pull-stream",
+    "control-flow",
+    "async",
+    "serial",
+    "parallel"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/pull-control"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "pull-stream": "latest",
+    "underscore": "latest",
+    "pull-balance": "latest"
+  }
+}
