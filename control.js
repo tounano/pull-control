@@ -56,7 +56,7 @@ var hwm = pull.Through(function (read, highWaterMark) {
 
     function next () {
       if(ended || ending || reading || buffer.length >= highWaterMark)
-        return
+        return readAhead();
       reading = true
       return read(ended, function (end, data) {
         reading = false

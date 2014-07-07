@@ -1,6 +1,6 @@
 {
   "name": "pull-control",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./control.js",
   "description": "Control flow for pull streams.",
   "homepage": "https://github.com/tounano/pull-control/",
